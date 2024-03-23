@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My DevOps Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+      animation: fadeInUp 1s ease-out;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    section {
+      padding: 20px;
+      animation: fadeInLeft 1s ease-out;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    .project {
+      margin-bottom: 20px;
+      animation: fadeInRight 1s ease-out;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DevOps Portfolio</h1>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>I am a DevOps engineer passionate about automating and streamlining the software delivery process. With expertise in various DevOps tools and practices, I strive to bridge the gap between development and operations teams to deliver high-quality software efficiently.</p>
+  </section>
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><img src="images/download.jpeg" alt="Linux"></li>
+      <li><img src="images/git.png" alt="Git"></li>
+      <li><img src="images/docker.png" alt="Docker"></li>
+      <li><img src="images/Kubernetes.png" alt="Kubernetes"></li>
+      <li><img src="images/ansible.png" alt="Ansible"></li>
+      <li><img src="images/chef.png" alt="Chef"></li>
+      <li><img src="images/jenkins.png" alt="Jenkins"></li>
+      <li><img src="images/nginx.png" alt="nginx"></li>
+      <!--li><img src="images/ansible.png" alt="Ansible"></li>-->
+      <!-- Add more tools as needed -->
+    </ul>
+  </section>
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>CI/CD Pipeline Implementation</h3>
+      <p>Implemented a fully automated CI/CD pipeline using Jenkins, Git, Docker, and Kubernetes, reducing deployment time by 50%.</p>
+    </div>
+    <div class="project">
+      <h3>Infrastructure as Code (IaC) Development</h3>
+      <p>Developed infrastructure as code templates using Terraform to provision and manage AWS resources, resulting in improved scalability and reliability.</p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>You can reach me at miqbalatif@gmail.com.</p>
+  </section>
+</body>
+</html>
